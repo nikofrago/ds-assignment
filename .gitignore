@@ -187,8 +187,7 @@ fabric.properties
 # *.ipr
 
 .idea/
-# *.csv
-
+*.csv
 *.dat
 
 # End of https://www.gitignore.io/api/python,django,intellij,pycharm
