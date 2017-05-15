@@ -73,4 +73,7 @@ def top10relationships(name='random'): #'''Barack Obama'):
                     'top 10 relationships': [str(this_name) for this_name in people_names.iloc[related_docs_indices].values]})
 
 if __name__ == "__main__":
+    import sframe
+    people = sframe.SFrame('people_wiki.gl/')
+    people.export_csv('people.csv')
     app.run()
